@@ -1,7 +1,5 @@
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-
-function Main(input):{
+function Main(stdin: string):{
 
 }
 
-console.log(Main(input));
+console.log(Main(require('fs').readFileSync('/dev/stdin', 'utf8')));
